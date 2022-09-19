@@ -16,6 +16,8 @@
 		5D23A23028D7FCEA005905ED /* excerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D23A22F28D7FCEA005905ED /* excerciseTests.swift */; };
 		5D23A23A28D7FCEA005905ED /* excerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D23A23928D7FCEA005905ED /* excerciseUITests.swift */; };
 		5D23A23C28D7FCEA005905ED /* excerciseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D23A23B28D7FCEA005905ED /* excerciseUITestsLaunchTests.swift */; };
+		5D23A24928D80E0B005905ED /* Exercise_Dataset.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D23A24828D80E0B005905ED /* Exercise_Dataset.json */; };
+		5D23A24F28D8125C005905ED /* VehicleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D23A24E28D8125C005905ED /* VehicleType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		5D23A23528D7FCEA005905ED /* excerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = excerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D23A23928D7FCEA005905ED /* excerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = excerciseUITests.swift; sourceTree = "<group>"; };
 		5D23A23B28D7FCEA005905ED /* excerciseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = excerciseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5D23A24828D80E0B005905ED /* Exercise_Dataset.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Exercise_Dataset.json; sourceTree = "<group>"; };
+		5D23A24E28D8125C005905ED /* VehicleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +109,9 @@
 				5D23A21E28D7FCE7005905ED /* Main.storyboard */,
 				5D23A22128D7FCEA005905ED /* Assets.xcassets */,
 				5D23A22328D7FCEA005905ED /* LaunchScreen.storyboard */,
+				5D23A24828D80E0B005905ED /* Exercise_Dataset.json */,
 				5D23A22628D7FCEA005905ED /* Info.plist */,
+				5D23A24E28D8125C005905ED /* VehicleType.swift */,
 			);
 			path = excercise;
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 			files = (
 				5D23A22528D7FCEA005905ED /* LaunchScreen.storyboard in Resources */,
 				5D23A22228D7FCEA005905ED /* Assets.xcassets in Resources */,
+				5D23A24928D80E0B005905ED /* Exercise_Dataset.json in Resources */,
 				5D23A22028D7FCE7005905ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +267,7 @@
 			files = (
 				5D23A21D28D7FCE7005905ED /* ViewController.swift in Sources */,
 				5D23A21928D7FCE7005905ED /* AppDelegate.swift in Sources */,
+				5D23A24F28D8125C005905ED /* VehicleType.swift in Sources */,
 				5D23A21B28D7FCE7005905ED /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
